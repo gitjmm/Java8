@@ -41,6 +41,26 @@ public class Poo {
 		System.out.println(n);
 		System.out.println(n2);
 		System.out.println(n3);
+		
+		// Clase Persona con arrays
+		System.out.println("-----Clases y Arrays------");
+		String[] nombres = {"Antonio","Carlos","Diego","Emilio"};
+		String[] apellidos = {"Alvarez","Camino","Doncel","Erraez"};
+		
+		//Creamos array de objetos Persona para 4 personas
+		Persona[] personas = new Persona[4]; 
+		for (int i=0; i<personas.length; i++) {
+			String nombre = nombres[i];
+			String apellido = apellidos[i];
+			personas[i] = new Persona(nombre,apellido);
+		}
+		
+		for (Persona p : personas)
+			System.out.println(p);
+		
+		//Array multidimensional
+		
+			
 
 	}
 
