@@ -58,7 +58,9 @@ public class Poo {
 		for (Persona p : personas)
 			System.out.println(p);
 		
-		//Array multidimensional
+		// Sobrecarga constructor Persona
+		Persona persona2 = new Persona("Jorge","Martinez");
+		System.out.println("Persona con constructor con parametros: \n"+persona2);
 		
 			
 
