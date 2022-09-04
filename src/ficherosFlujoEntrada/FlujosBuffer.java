@@ -16,6 +16,7 @@ import java.io.IOException;
 public class FlujosBuffer {
 
 	public static void main(String[] args) {
+		
 		BufferedInputStream bin = null;
 		BufferedOutputStream bout = null;
 		

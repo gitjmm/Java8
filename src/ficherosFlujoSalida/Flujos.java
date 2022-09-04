@@ -35,7 +35,8 @@ public class Flujos {
 		OutputStream fout = null;
 		//En este caso vamos a escribir un byte sobre un fichero binario (no texto)
 		try {
-			fout = new FileOutputStream("fichero.dat"); //Ruta. Lo almacena en la raiz del proyecto.
+			//Ruta. Lo almacena en la raiz del proyecto. Si no está en raiz se usa \\
+			fout = new FileOutputStream("fichero.dat"); 
 			for(int i=0; i<10; i++) {
 				fout.write(i);
 			}
