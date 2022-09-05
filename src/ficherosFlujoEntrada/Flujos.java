@@ -36,6 +36,7 @@ public class Flujos {
 		//En este caso vamos a leer del fichero binario donde guardamos los 10 numeros (no texto)
 		try {
 			fin = new FileInputStream("fichero.dat"); //Ruta. Lo almacena en la raiz del proyecto.
+			//Ejemplo ruta completa "C:\\Users\\Usuario\\Documents\\saludo.txt"
 			int valor;
 			while ((valor = fin.read()) != -1) {
 				System.out.println(valor);
